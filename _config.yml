@@ -3,8 +3,8 @@ baseurl: ""
 url: "https://jschultz299.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Type on Strap                                    # site's title
-description: "A website with blog posts and pages"      # used by search engines
+title: Jack Schultz                                    # site's title
+description: "A robotics and machine learning enthusiast's personal website"      # used by search engines
 avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
