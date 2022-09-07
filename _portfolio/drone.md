@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Quadcopter with 3D Printed Frame
+title: 3D Printed Quadcopter
 feature-img: "assets/img/portfolio/drone/feature.jpg"
 img: "assets/img/portfolio/drone/thumbnail.jpg"
 date: August 16, 2016
