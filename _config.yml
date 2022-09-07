@@ -3,14 +3,14 @@ baseurl: ""
 url: "https://jschultz299.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Jack Schultz                                    # site's title
-description: "A robotics and machine learning enthusiast's personal website"      # used by search engines
-avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
+title: Jack Schultz                                     # site's title
+description: "A robotics and machine learning enthusiast"      # used by search engines
+avatar: assets/img/logo.svg                             # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
-header_text: Change <code>header_text</code> in <code>_config.yml</code>  # Change Blog header text
-header_feature_image: assets/img/header/triangular.jpeg
+header_text: Welcome to my Webpage!  # Change Blog header text
+header_feature_image: assets/img/header/motherboard.jpg
 header_feature_image_responsive: true
 footer_text: >
   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
@@ -32,7 +32,7 @@ color_theme: auto                                       # auto, dark or light
 # Comments
 comments:
   disqus_shortname:                                     # Your discus shortname for comments
-  cusdis_app_id:                                        # Your cusdis data-app-id
+  cusdis_app_id: 3340836f-9e98-408b-a583-76b16dad6200   # Your cusdis data-app-id
   utterances:                                           # Enable by filling below information. For more info, go to https://utteranc.es
     repo:                                               # your public comments repository (e.g. owner/repo)
     issue-term:                                         # Issue term (e.g. "comment" consider issues with this word in the title as comments)
