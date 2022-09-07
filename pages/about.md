@@ -6,6 +6,7 @@ feature-img: "assets/img/pexels/travel.jpeg"
 tags: [Page]
 ---
 
+<section class="post-content">
 <p>
     <em>I am actively looking for exciting opportunities in robotics and machine learning!</em>
 </p>
@@ -69,3 +70,4 @@ tags: [Page]
     portable system, there is something to be learned from every experience. Check out some of these fun projects on the 
     <a href="http://jschultz299.github.io/projects/">Projects</a> page!
 </p>
+</section>
