@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Drone
-feature-img: "assets/img/portfolio/drone/feature.jpg"
-img: "assets/img/portfolio/drone/thumbnail.jpg"
-date: August 16, 2016
-tags: [Mechatronics, Aviation, Engineering]
+title: Path Follow
+feature-img: ""
+img: "/assets/img/portfolio/submarine.png"
+date: December???, 2018
+tags: [Engineering, Motion Planning, Robotics]
 ---
 
 ![image]({{ page.img | relative_url }})

@@ -3,8 +3,8 @@ layout: post
 title: Foundry 1.0
 feature-img: "assets/img/portfolio/foundry1/feature.jpg"
 img: "assets/img/portfolio/foundry1/thumbnail.gif"
-date: August 16, 2016
-tags: [Lorem, Ipsum]
+date: August 20, 2017
+tags: [Engineering, Fabrication, Casting]
 ---
 
 ![image]({{ page.img | relative_url }})
