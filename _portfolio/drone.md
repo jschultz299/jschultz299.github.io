@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3D Printed Quadcopter
+title: Drone
 feature-img: "assets/img/portfolio/drone/feature.jpg"
 img: "assets/img/portfolio/drone/thumbnail.jpg"
 date: August 16, 2016
