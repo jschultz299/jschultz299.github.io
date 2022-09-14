@@ -33,6 +33,6 @@ tags: [Mechatronics, Aviation, Engineering, 3D Printing]
     </p>
 
     <p>
-        <strong><u>3D Printed Frame</u></strong>
+        More coming soon...
     </p>
 </section>
