@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Drone
-feature-img: "assets/img/portfolio/drone/feature.jpg"
+feature-img: "assets/img/portfolio/drone/features/feature.jpg"
+header_feature_image_responsive: true
 img: "assets/img/portfolio/drone/thumbnail.jpg"
 date: August 16, 2016
 tags: [Mechatronics, Aviation, Engineering]
