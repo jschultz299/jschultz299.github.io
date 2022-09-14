@@ -5,20 +5,34 @@ feature-img: "assets/img/portfolio/drone/features/feature.jpg"
 header_feature_image_responsive: true
 img: "assets/img/portfolio/drone/thumbnails/thumbnail_800x600.gif"
 date: August 16, 2016
-tags: [Mechatronics, Aviation, Engineering]
+tags: [Mechatronics, Aviation, Engineering, 3D Printing]
 ---
 
-![image]({{ page.img | relative_url }})
+<!-- ![image]({{ page.img | relative_url }}) -->
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-Nemo enim ipsam voluptatem <a>quia voluptas sit aspernatur</a> aut odit aut fugit, 
-sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-sed quia non numquam eius <a>modi tempora incidunt</a> ut labore et dolore magnam aliquam quaerat voluptatem. 
-Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? 
-Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, 
-vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+<section class="content">
+    <p>
+        Back in 2016, every kid wanted to build a drone, and I was no exeption. I wanted to learn how to 3D print, however, so I combined the two interests and set out to build a quadcopter with a 3D printed frame.
+    </p>
 
-Use this area of the page to describe your project. 
-The icon above is part of a free icon set by Flat Icons. 
+    <p>
+        The primary components you need for a quadcopter are:
+        <ul>
+            <li>A frame</li>
+            <li>Battery</li>
+            <li>Power Distribution Board (PDB)</li>
+            <li>Motors</li>
+            <li>Electronic Speed Controllers (ESC)</li>
+            <li>Propellors</li>
+            <li>Radio and Receiver</li>
+        </ul>
+    </p>
+
+    <p>
+        <strong><u>3D Printed Frame</u></strong>
+    </p>
+
+    <p>
+        <strong><u>3D Printed Frame</u></strong>
+    </p>
+</section>
