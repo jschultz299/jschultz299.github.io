@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Foundry 1.0
-feature-img: "assets/img/portfolio/foundry1/feature.jpg"
+feature-img: "assets/img/portfolio/foundry1/features/feature.jpg"
 header_feature_image_responsive: true
-img: "assets/img/portfolio/foundry1/thumbnail_670x504.gif"
+img: "assets/img/portfolio/foundry1/thumbnails/thumbnail_670x504.gif"
 date: August 20, 2017
 tags: [Engineering, Fabrication, Casting]
 ---
