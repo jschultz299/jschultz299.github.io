@@ -2,7 +2,8 @@
 layout: post
 title: Foundry 2.0
 feature-img: "assets/img/portfolio/foundry2/feature.jpg"
-img: "assets/img/portfolio/foundry2/thumbnail.gif"
+header_feature_image_responsive: true
+img: "assets/img/portfolio/foundry2/thumbnail_800x600.gif"
 date: March 06, 2022
 tags: [Engineering, Fabrication, Casting]
 ---
