@@ -430,7 +430,7 @@ SIMPLE_MOVEMENT = [
 </p>
 
 <p align="center">
-    <img src="../assets/img/portfolio/rl/MarioDemoEnvironemnt.png" width="75%" />
+    <img src="../assets/img/portfolio/rl/MarioDemoEnvironment.gif" width="75%" />
 </p>
 
 <p>
@@ -502,7 +502,7 @@ model.learn(total_timesteps=1000, callback=callback)
 </p>
 
 <p align="center">
-    <img src="../assets/img/portfolio/rl/thumbnails/thumbnail_mario.gif" width="100%" />
+    <img src="../assets/img/portfolio/rl/thumbnails/thumbnail_mario.gif" width="75%" />
 </p>
 
 <p>
