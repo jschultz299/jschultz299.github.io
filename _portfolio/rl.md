@@ -430,7 +430,7 @@ SIMPLE_MOVEMENT = [
 </p>
 
 <p align="center">
-    <center><strong><font size="+5">INSERT GIF HERE</font></strong></center>
+    <img src="../assets/img/portfolio/rl/MarioDemoEnvironemnt.png" width="75%" />
 </p>
 
 <p>
@@ -438,7 +438,18 @@ SIMPLE_MOVEMENT = [
 </p>
 
 ```python
-INSERT CODE HERE
+environment_name = 'SuperMarioBros-v0'
+env = gym_super_mario_bros.make(environment_name)
+env = JoypadSpace(env, SIMPLE_MOVEMENT)
+
+done = True
+frames = 3000
+for step in range(frames):
+    if done:
+        env.reset()
+    state, reward, done, info = env.step(env.action_space.sample())
+    env.render()
+env.close()
 ```
 
 <p>
@@ -450,19 +461,44 @@ INSERT CODE HERE
 </p>
 
 <p align="center">
-    <center><strong><font size="+5">INSERT IMAGE HERE</font></strong></center>
+    <img src="../assets/img/portfolio/rl/MarioStackedFrames.png" width="100%" />
 </p>
 
 <p>
-    Training the model for ????? timesteps...
+    Training the model for a whopping 5,00,000 timesteps...
 </p>
 
 ```python
-INSERT CODE HERE
+env = DummyVecEnv([lambda: env])
+env = VecFrameStack(env, 8, channels_order='last')
+
+class TrainAndLoggingCallback(BaseCallback):
+    def __init__(self, check_freq, save_path, verbose=1):
+        super(TrainAndLoggingCallback, self).__init__(verbose)
+        self.check_freq = check_freq
+        self.save_path = save_path
+        
+    def _init_callback(self):
+        if self.save_path is not None:
+            os.makedirs(self.save_path, exist_ok=True)
+            
+    def _on_step(self):
+        if self.n_calls % self.check_freq == 0:
+            model_path = os.path.join(self.save_path, 'best_model_{}'.format(self.n_calls))
+            self.model.save(model_path)
+        return True
+        
+CHECKPOINT_DIR = './train'
+LOG_DIR = '.logs'
+
+callback = TrainAndLoggingCallback(check_freq=10000, save_path=CHECKPOINT_DIR)
+
+model = PPO('CnnPolicy', env, verbose=1, tensorboard_log=LOG_DIR, learning_rate=.000001, n_steps=512)
+model.learn(total_timesteps=1000, callback=callback)
 ```
 
 <p>
-    ... results in an agent with decent, yet not perfect performance.
+    ... results in an agent with decent, yet not near perfect performance.
 </p>
 
 <p align="center">
@@ -470,7 +506,20 @@ INSERT CODE HERE
 </p>
 
 <p>
-Check out the logs for an A2C model trained with 100k timesteps <a href="https://github.com/jschultz299/ReinforcementLearning/tree/main/OpenAiGym/Images/Breakout/Tensorboard_Logs" target="_blank">here</a>.
+Check out the logs for a PPO model trained with 5M timesteps <a href="https://github.com/jschultz299/ReinforcementLearning/tree/main/OpenAiGym/Images/SuperMario/Tensorboard_Logs/5M_Model" target="_blank">here</a>.
+</p>
+
+<p>
+    Even after training for 5 million timesteps for over 20 hours on an NVIDIA 3090 GPU, the agent was only able to beat the first level of Super Mario Bros. one time. If we take a look at the tensorboard logs, we can see that the entropy loss never really converges. In fact, it's not even clear that there is a downward trend. This may be evidence that the model isn't learning fast enough, and may never learn how to successfully play the game, at least not in the current setup. See the entropy loss below.
+</p>
+
+<p align="center">
+    <img src="../assets/img/portfolio/rl/MarioLoss.png" width="75%" />
+</p>
+
+<p>
+    Some things to try would be to increase the number of frames in the stack, allowing the model to learn across more frames, however, this would significantly increase training time. Another thing to try is to adjust the penalties and rewards. Right now, the agent is only rewarded for reaching the flag. It's possible that giving the agent more frequent rewards, for squashing an enemy, for example, might help the model to learn better. Most likely, however, the cause is that the model is not complex enough to handle the input information. Of all of our exercises on this page, this one is the most complicated. The input space is the largest, the inputs are time dependent, and image frame changes greatly depending on where you are in the level. A more complex model might be able to learn more given the information available in the problem. Feel free to leave a comment down below if you have any other thougths or want to share your solution!
+</p>
 
 <p align="center">
     <em><a href="#TOC">Back to top</a></em>
