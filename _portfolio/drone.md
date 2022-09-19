@@ -13,7 +13,6 @@ tags: [Mechatronics, Aviation, Engineering, 3D Printing]
 
 <!-- ![image]({{ page.img | relative_url }}) -->
 
-<section class="post-content">
 <p>
     <em>*Disclaimer: This project was finished {{x}} years ago, thus a lot of the referenced components may be discontinued. Feel free to leave a comment and suggest alternatives!</em>
 </p>
@@ -162,5 +161,3 @@ tags: [Mechatronics, Aviation, Engineering, 3D Printing]
 <p>
     <em>This project was heavily inspired by <a href="https://www.instructables.com/How-to-Design-and-3D-Print-Your-Very-Own-Quadcopte/" target="_blank">this instructable</a> from <a href="https://www.instructables.com/member/tahitianrider/" target="_blank">tahitianrider</a>. Thanks to him for getting me started!</em>
 </p>
-
-</section>

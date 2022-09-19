@@ -542,6 +542,10 @@ Check out the logs for a PPO model trained with 5M timesteps <a href="https://gi
 
 {% include aligner.html images="portfolio/rl/thumbnails/thumbnail_pendulum.gif,portfolio/rl/thumbnails/thumbnail_breakout.gif,portfolio/rl/thumbnails/thumbnail_driving.gif,portfolio/rl/thumbnails/thumbnail_mario.gif" %}
 
+<p align="center">
+    <em><a href="#TOC">Back to top</a></em>
+</p>
+
 <hr/>
 
 <p>
