@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Rapidly Exploring Random Trees
-feature-img: "assets/img/portfolio/rl/features/feature.png"
+feature-img: "assets/img/portfolio/rrt/features/feature.jpg"
 header_feature_image_responsive: true
-img: "assets/img/portfolio/rl/thumbnails/thumbnail_mario.gif"
-date: April 8, 2022
-tags: [RRT, Machine Learning, Engineering, Research, Programming, Matlab]
+img: "assets/img/portfolio/rrt/thumbnails/thumbnail.gif"
+date: February 14, 2022
+tags: [RRT, Machine Learning, Engineering, Research, Programming, Matlab, A*]
 ---
 
 <!-- ![image]({{ page.img | relative_url }}) -->
@@ -15,7 +15,7 @@ tags: [RRT, Machine Learning, Engineering, Research, Programming, Matlab]
 </p> 
 
 <p align="center">
-    <img src="../assets/img/portfolio/rl/thumbnails/thumbnail_driving.gif" width="100%" />
+    <img src="../assets/img/portfolio/rrt/thumbnails/thumbnail.gif" width="100%" />
 </p>
 
 
