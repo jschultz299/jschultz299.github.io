@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Smart Walker
-feature-img: "assets/img/portfolio/rrt/features/feature.jpg"
+feature-img: "assets/img/portfolio/walker/features/feature.png"
 header_feature_image_responsive: true
-img: "assets/img/portfolio/rrt/thumbnails/thumbnail.gif"
+img: "assets/img/portfolio/walker/thumbnails/thumbnail.gif"
 date: July 14, 2019
 tags: [Assistive Technology, Stability and Posture, Visual Feedback, Mobility Aids, Kinematics, Gait, Engineering, Research]
 ---
@@ -27,6 +27,14 @@ This work has been published in the Journal of Assistive Technology and can be f
 <p>
     <center><strong><font size="+5">More details coming soon!</font></strong></center>
 </p> 
+
+<p>
+    In the meantime, check out some responses for people who tried out the device.
+</p>
+
+<p align="center">
+    <img src="../assets/img/portfolio/walker/responses.gif" width="100%" />
+</p>
 
 <hr/>
 
