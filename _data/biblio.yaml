@@ -5,3 +5,15 @@
 - authors: Michael's Rose
   title: "[Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting)"
   key: highlight
+
+- authors: Kaye, S., Kang, T., and LaPlante, M
+  title: Mobility device use in the United States
+  volume: 14
+  year: 2000
+  key: kaye2000mobility
+
+- authors: Hao, L
+  title: Assessment of rolling walkers used by older adults in senior-living communities
+  volume: 9.2
+  year: 2009
+  key: liu2009assessment
