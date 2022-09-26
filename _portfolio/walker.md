@@ -22,7 +22,7 @@ tags: [Assistive Technology, Stability and Posture, Visual Feedback, Mobility Ai
 
 This work has been published in the Journal of Assistive Technology and can be found <a href="https://www.tandfonline.com/doi/abs/10.1080/10400435.2019.1637380" target="_blank">here</a>. Full citation below.
 
-> Golembiewski, C., <em>Schultz, J.</em>, Reissman, T., Merriman, H., Walsh-Messinger, J., Jackson, K., & Bigelow, K. E. (2021). The effects of a positional feedback device on rollator walker use: a validation study. Assistive Technology, 33(6), 318-325. <a href="https://doi.org/10.1080/10400435.2019.1637380" target="_blank">DOI: 10400435.2019.1637380</a>.
+> Golembiewski, C., <b>Schultz, J.</b>, Reissman, T., Merriman, H., Walsh-Messinger, J., Jackson, K., & Bigelow, K. E. (2021). The effects of a positional feedback device on rollator walker use: a validation study. Assistive Technology, 33(6), 318-325. <a href="https://doi.org/10.1080/10400435.2019.1637380" target="_blank">DOI: 10400435.2019.1637380</a>.
 
 <p>
     <center><strong><font size="+5">More details coming soon!</font></strong></center>
