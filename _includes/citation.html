@@ -1,2 +1,2 @@
 {%- assign citation = site.data.biblio | where:"key", include.key | first -%}
-<span class="cit-authors">{{citation.authors}}</span>, <span class="cit-title">{{citation.title}}</span>. <span class="cit-volume">{{citation.volume}}</span>, <span class="cit-year">{{citation.year}}</span>.
+<span class="cit-authors">{{citation.authors}}</span>. "<span class="cit-title">{{citation.title}}</span>." <span class="cit-journal"><em>{{citation.journal}}</em></span>, <span class="cit-volume">{{citation.volume}}</span> (<span class="cit-year">{{citation.year}}</span>).
