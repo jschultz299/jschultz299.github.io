@@ -11,11 +11,11 @@ tags: [Reinforcement Learning, Machine Learning, Engineering, Research, Programm
 <!-- ![image]({{ page.img | relative_url }}) -->
 
 <p>
+    <a id="TOP"></a>
     This page encompasses multiple demonstrations of Reinforcement Learning, both from a theoretical perspective and with an emphasis on implementation. The corresponding github repository can be found <a href="https://github.com/jschultz299/ReinforcementLearning" target="_blank">here</a>.
 </p>
 
 <p>
-    <a id="TOC"></a>
     <strong><u><font size="+3">Table Of Contents</font></u></strong>
 </p>
 
@@ -127,7 +127,7 @@ tags: [Reinforcement Learning, Machine Learning, Engineering, Research, Programm
 </p>
 
 <p align="center">
-    <em><a href="#TOC">Back to top</a></em>
+    <em><a href="#TOP">Back to top</a></em>
 </p>
 
 <hr/>
@@ -522,7 +522,7 @@ Check out the logs for a PPO model trained with 5M timesteps <a href="https://gi
 </p>
 
 <p align="center">
-    <em><a href="#TOC">Back to top</a></em>
+    <em><a href="#TOP">Back to top</a></em>
 </p>
 
 <hr/>
@@ -542,12 +542,12 @@ Check out the logs for a PPO model trained with 5M timesteps <a href="https://gi
 
 {% include aligner.html images="portfolio/rl/thumbnails/thumbnail_pendulum.gif,portfolio/rl/thumbnails/thumbnail_breakout.gif,portfolio/rl/thumbnails/thumbnail_driving.gif,portfolio/rl/thumbnails/thumbnail_mario.gif" %}
 
-<p align="center">
-    <em><a href="#TOC">Back to top</a></em>
+<p>
+    <em>This project was inspired by the <a href="https://www.youtube.com/watch?v=Mut_u40Sqz4" target="_blank">Reinforcement Learning in 3 Hours</a> course from <a href="https://www.youtube.com/c/NicholasRenotte" target="_blank">Nicholas Renotte</a> on YouTube. Thanks to him for helping me get started! You can check out his code for these projects as well <a href="https://github.com/nicknochnack/ReinforcementLearningCourse" target="_blank">here</a>.</em>
 </p>
 
 <hr/>
 
-<p>
-    <em>This project was inspired by the <a href="https://www.youtube.com/watch?v=Mut_u40Sqz4" target="_blank">Reinforcement Learning in 3 Hours</a> course from <a href="https://www.youtube.com/c/NicholasRenotte" target="_blank">Nicholas Renotte</a> on YouTube. Thanks to him for helping me get started! You can check out his code for these projects as well <a href="https://github.com/nicknochnack/ReinforcementLearningCourse" target="_blank">here</a>.</em>
+<p align="center">
+    <em><a href="#TOP">Back to top</a></em>
 </p>

@@ -14,6 +14,7 @@ tags: [Mechatronics, Aviation, Engineering, 3D Printing]
 <!-- ![image]({{ page.img | relative_url }}) -->
 
 <p>
+    <a id="TOP"></a>
     <em>*Disclaimer: This project was finished {{x}} years ago, thus a lot of the referenced components may be discontinued. Feel free to leave a comment and suggest alternatives!</em>
 </p>
 
@@ -139,6 +140,10 @@ tags: [Mechatronics, Aviation, Engineering, 3D Printing]
     Just building the drone isn't enough, though. We want to get this thing off the ground! To do this, we need to program the flight controller and get the quadcopter set up and ready to fly. The software I use is <a href="https://betaflight.com/" target="_blank"> BetaFlight Configurator</a>. There are lots of great tutorials to help you get started. The biggest thing to rememeber is to flash the firmware that is appropriate for your flight controller. Once you have that done, you can use BetaFlight to calibrate your accelerometer, tune parameters like throttle response curves, program bailout macros, etc. It's then just a matter of figuring out what setups you like best! 
 </p>
 
+<p align="center">
+    <em><a href="#TOP">Back to top</a></em>
+</p>
+
 <hr/>
 
 <br>
@@ -160,4 +165,10 @@ tags: [Mechatronics, Aviation, Engineering, 3D Printing]
 
 <p>
     <em>This project was heavily inspired by <a href="https://www.instructables.com/How-to-Design-and-3D-Print-Your-Very-Own-Quadcopte/" target="_blank">this instructable</a> from <a href="https://www.instructables.com/member/tahitianrider/" target="_blank">tahitianrider</a>. Thanks to him for getting me started!</em>
+</p>
+
+<hr/>
+
+<p align="center">
+    <em><a href="#TOP">Back to top</a></em>
 </p>
