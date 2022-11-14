@@ -10,6 +10,10 @@ tags: [Page]
     <em>*I am actively looking for exciting opportunities in robotics and machine learning!</em>
 </p>
 
+<p align="center">
+    <img src="../assets/img/headshot-circle.jpg" width="75%" />
+</p>
+
 <p>
     Hi! My name is Jack Schultz. I am currently working toward earning my PhD in Mechanical Engineering at 
     <a href="https://www.csuohio.edu/" target="_blank">Cleveland State University</a>. I plan to graduate in <strong>May 2023</strong>. 
@@ -26,23 +30,27 @@ tags: [Page]
 </p>
 
 <p>
-    Project topics include:
+    Some key projects include:
 </p>
 <ul>
-  <li><strong>robot manipulation</strong></li>
-  <li><strong>motion planning</strong></li>
-  <li><strong>computer vision</strong></li>
-  <li><strong>natural language processing</strong></li>
-  <li><strong>assistive device development</strong></li>
+  <li><strong>Robot-Assisted Feeding for People with Spinal Cord Injuries</strong></li>
+  <li><strong>Deep Reinforcement Learning for Atari Games</strong></li>
+  <li><strong>Eye-Hand Coordination in the Presence of Entangled Feedback</strong></li>
+  <li><strong>SmartWalker Posture Monitor for Elderly Individuals</strong></li>
 </ul>
 
 <p>Skills developed include:</p>
 <ul>
-  <li><strong>Python</strong></li>
-  <li><strong>ROS</strong></li>
-  <li><strong>C++</strong></li>
-  <li><strong>QML</strong></li>
-  <li><strong>Fabrication</strong></li>
+  <li><strong>Robotics / Machine Learning / Computer Vision / Motion Planning</strong></li>
+  <li><strong>Machine Learning/ Deep Learning / Reinforcement Learning</strong></li>
+  <li><strong>Python / C++ / MATLAB / SQL / QML</strong></li>
+  <li><strong>ROS / Gazebo / Moveit</strong></li>
+  <li><strong>PyTorch / TensorFlow</strong></li>
+  <li><strong>Minitab / R / SPSS</strong></li>
+  <li><strong>Fabrication / SolidWorks / Fusion360</strong></li>
+  <li><strong>Collaboration / Strategic Vision / Organization</strong></li>
+  <li><strong>Creative Problem-Solving / Research / Data Analysis</strong></li>
+  <li><strong>Project Management / Technical Writing</strong></li>
 </ul>
 
 <hr/>
