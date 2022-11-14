@@ -26,7 +26,7 @@ tags: [Page]
     The group I am currently a part of is the <a href="http://chms.csuohio.edu/" target="_blank">Center for Human Machine Systems</a>.  
     My current research project combines robotics, computer vision, and eye tracking 
     to enable individuals with spinal cord injuries to feed themselves. You can find information regarding this work and 
-    more on the <a href="http://jschultz299.github.io/projects/">Projects</a> page.
+    more on the <a href="https://jschultz299.github.io/portfolio/">Projects</a> page.
 </p>
 
 <p>
@@ -78,5 +78,5 @@ tags: [Page]
     about new research ideas and fabrication techniques along the way. Whether it's casting aluminum 
     parts in a homeade foundry, tearing down and rebuilding an old dirtbike, or converting a gaming console into a 
     portable system, there is something to be learned from every experience. Check out some of these fun projects on the 
-    <a href="http://jschultz299.github.io/projects/">Projects</a> page!
+    <a href="http://jschultz299.github.io/porfolio/">Projects</a> page!
 </p>
