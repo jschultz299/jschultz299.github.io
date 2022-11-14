@@ -22,12 +22,13 @@ tags: [Reinforcement Learning, Machine Learning, Engineering, Research, Programm
 <p>
     <ol>
         <li><a href="#Overview">Overview</a></li>
-        <li><a href="#GridWorld">GridWorld</a></li>
-        <ol type="a">
-            <li><a href="#RandomActions">Random Actions</a></li>
-            <li><a href="#ValueIteration">Value Iteration</a></li>
-            <li><a href="#Q-Learning">Epsilon Greedy Q-Learning</a></li>
-        </ol>
+        <li><a href="#GridWorld">GridWorld</a>
+            <ol type="a">
+                <li><a href="#RandomActions">Random Actions</a></li>
+                <li><a href="#ValueIteration">Value Iteration</a></li>
+                <li><a href="#Q-Learning">Epsilon Greedy Q-Learning</a></li>
+            </ol>
+        </li>
         <li><a href="#OpenAiGym">OpenAI Gym</a>
             <ol type="a">
                 <li><a href="#Pendulum">Inverted Pendulum</a></li>

@@ -36,3 +36,7 @@ test/*
 /type-on-strap*/*
 *.MOV
 *.mov
+
+# Pages I don't want to show for now
+gallery.md
+blog.md
