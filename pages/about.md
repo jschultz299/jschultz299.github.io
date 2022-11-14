@@ -11,7 +11,7 @@ tags: [Page]
 </p>
 
 <p align="center">
-    <img src="../assets/img/headshot-circle.jpg" width="75%" />
+    <img src="../assets/img/headshot-circle.png" width="50%" />
 </p>
 
 <p>
