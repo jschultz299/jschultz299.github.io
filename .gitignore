@@ -38,4 +38,4 @@ test/*
 *.mov
 
 # Pages I don't want to show for now
-blog.md
+.hidden_pages
