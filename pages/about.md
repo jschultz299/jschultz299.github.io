@@ -78,5 +78,5 @@ tags: [Page]
     about new research ideas and fabrication techniques along the way. Whether it's casting aluminum 
     parts in a homeade foundry, tearing down and rebuilding an old dirtbike, or converting a gaming console into a 
     portable system, there is something to be learned from every experience. Check out some of these fun projects on the 
-    <a href="http://jschultz299.github.io/porfolio/">Projects</a> page!
+    <a href="http://jschultz299.github.io/portfolio/">Projects</a> page!
 </p>
