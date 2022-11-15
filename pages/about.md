@@ -63,7 +63,7 @@ tags: [Page]
 <p>
     I'm originally from St. Louis, Missouri.
     I moved to Ohio in 2013 and earned my Bachelor's degree in Mechanical Engineering from the <a href="https://udayton.edu/" target="_blank">University of Dayton</a> in December 2017. I then moved to Cleveland, Ohio the following summer where I entered into my current role, 
-    working toward earning my PhD in Mechanical Engineering at Cleveland State University. Although I've been in Ohio 
+    working toward earning my PhD in Mechanical Engineering at <a href="https://www.csuohio.edu/" target="_blank">Cleveland State University</a>. Although I've been in Ohio 
     for almost a decade, I still remain a huge Cardinals and Blues fan! I've slowly been converted into a Browns 
     fan as well, which has taught me a lot about my pain tolerance <font face="Segoe UI Symbol">&#128541;</font>.
 </p>
