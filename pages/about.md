@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 feature-img: "assets/img/feature-img/book-coffee.jpeg"
-tags: [Page]
+tags: [About, Skills, Experience, Projects, Hobbies]
 ---
 
 <p>
