@@ -5,6 +5,7 @@ feature-img: "assets/img/portfolio/foundry1/features/feature.jpg"
 header_feature_image_responsive: true
 img: "assets/img/portfolio/foundry1/thumbnails/thumbnail_670x504.gif"
 date: August 20, 2017
+order: 7
 tags: [Engineering, Fabrication, Casting]
 ---
 

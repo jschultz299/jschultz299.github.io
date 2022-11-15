@@ -2,7 +2,7 @@
 <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css">
 <!-- <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-iso.min.css"> -->
 <div class="portfolio-grid">
-    {% for item in site.portfolio %}
+    {% for item in site.portfolio|reverse=true %}
     <div class="portfolio-cell">
         <a class="portfolio-link" data-keyboard="true" href="{{ item.url | relative_url }}">
             <div class="caption" title="{{ item.title }}">

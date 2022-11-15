@@ -5,6 +5,7 @@ feature-img: "assets/img/portfolio/walker/features/feature.png"
 header_feature_image_responsive: true
 img: "assets/img/portfolio/walker/thumbnails/thumbnail.gif"
 date: July 14, 2019
+order: 2
 tags: [Assistive Technology, Stability and Posture, Visual Feedback, Mobility Aids, Kinematics, Gait, Engineering, Research]
 ---
 

@@ -5,6 +5,7 @@ feature-img: "assets/img/portfolio/rrt/features/feature.jpg"
 header_feature_image_responsive: true
 img: "assets/img/portfolio/rrt/thumbnails/thumbnail.gif"
 date: February 14, 2022
+order: 5
 tags: [RRT, Machine Learning, Engineering, Research, Programming, Matlab, A*]
 ---
 
