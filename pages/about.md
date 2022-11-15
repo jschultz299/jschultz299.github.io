@@ -17,7 +17,7 @@ tags: [Page]
 <p>
     Hi! My name is Jack Schultz. I am currently working toward earning my PhD in Mechanical Engineering at 
     <a href="https://www.csuohio.edu/" target="_blank">Cleveland State University</a>. I plan to graduate in <strong>May 2023</strong>. 
-    I have strong interests in robotics, mechatronics, controls, machine learning, and artificial intelligence. My long term 
+    I have strong interests in robotics, mechatronics, controls, computer vision, motion planning, machine learning, and artificial intelligence. My long term 
     goal is to develop transformative technologies in the fields of robotics and machine learning which transition society 
     to a world of abundance and empower humans to live productive and healthy lives.
 </p> 
@@ -30,27 +30,28 @@ tags: [Page]
 </p>
 
 <p>
-    Some key projects include:
+    Some key research projects include:
 </p>
 <ul>
   <li><strong>Robot-Assisted Feeding for People with Spinal Cord Injuries</strong></li>
-  <li><strong>Deep Reinforcement Learning for Atari Games</strong></li>
+  <li><strong><a href="https://jschultz299.github.io/portfolio/rl">Deep Reinforcement Learning for Atari Games</a></strong></li>
   <li><strong>Eye-Hand Coordination in the Presence of Entangled Feedback</strong></li>
-  <li><strong>SmartWalker Posture Monitor for Elderly Individuals</strong></li>
+  <li><strong><a href="https://jschultz299.github.io/portfolio/walker">SmartWalker Posture Monitor for Elderly Individuals</a></strong></li>
 </ul>
 
 <p>Skills developed include:</p>
 <ul>
   <li><strong>Robotics / Machine Learning / Computer Vision / Motion Planning</strong></li>
   <li><strong>Machine Learning/ Deep Learning / Reinforcement Learning</strong></li>
-  <li><strong>Python / C++ / MATLAB / SQL / QML</strong></li>
+  <li><strong>Python / C++ / MATLAB / SQL / HTML / QML</strong></li>
   <li><strong>ROS / Gazebo / Moveit</strong></li>
   <li><strong>PyTorch / TensorFlow</strong></li>
   <li><strong>Minitab / R / SPSS</strong></li>
-  <li><strong>Fabrication / SolidWorks / Fusion360</strong></li>
+  <li><strong>Fabrication / Rapid Prototyping / Additive Manufacturing</strong></li>
+  <li><strong>SolidWorks / Fusion360</strong></li>
   <li><strong>Collaboration / Strategic Vision / Organization</strong></li>
   <li><strong>Creative Problem-Solving / Research / Data Analysis</strong></li>
-  <li><strong>Project Management / Technical Writing</strong></li>
+  <li><strong>Project Management / Technical Writing / Organization</strong></li>
 </ul>
 
 <hr/>
