@@ -45,7 +45,7 @@ tags: [Path Planning, A*, Motion Planning, Machine Learning, Engineering, Resear
 </p>
 
 <p align="center">
-    <img src="../assets/img/portfolio/rrt/ex1.gif" width="75%" />
+    <img src="../assets/img/portfolio/rrt/rrt-ex1.gif" width="75%" />
 </p>
 
 <p>
