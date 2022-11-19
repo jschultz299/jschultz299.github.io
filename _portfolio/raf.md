@@ -15,14 +15,14 @@ If you're interested in other sub-projects relating to Robot-Assisted Feeding, c
 <ol>
     <li><a href="">Camera to Robot Calibration</a>.[Coming Soon]
     <li><a href="">Camera Mount Design and Fabrication</a>.[Coming Soon]
-    <li><a href="">Object Detection - V1</a>.[Coming Soon]
+    <li><a href="https://jschultz299.github.io/portfolio/objectdetection1">Object Detection V1</a>.[Coming Soon]
     <li><a href="">Simple Grasp Generation</a>.[Coming Soon]
     <li><a href="">Eye Tracking Interface</a>.[Coming Soon]
     <li><a href="">Facial Keypoint Detection</a>.[Coming Soon]
     <li><a href="">Object Tracking</a>.[Coming Soon]
     <li><a href="">Prototype - V2</a>.[Coming Soon]
     <li><a href="">Robot to Wheelchair Mount</a>.[Coming Soon]
-    <li><a href="">Object Detection - V2</a>.[Coming Soon]
+    <li><a href="">Object Detection V2</a>.[Coming Soon]
     <li><a href="">Grasp Pose Detection</a>.[Coming Soon]
     <li><a href="">Mouth Visual Servoing</a>.[Coming Soon]
 </ol>

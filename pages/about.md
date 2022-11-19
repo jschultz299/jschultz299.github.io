@@ -33,7 +33,7 @@ tags: [About, Skills, Experience, Projects, Hobbies]
     Some key research projects include:
 </p>
 <ul>
-  <li><strong>Robot-Assisted Feeding for People with Spinal Cord Injuries</strong> [Coming Soon]</li>
+  <li><strong><a href="https://jschultz299.github.io/portfolio/raf">Robot-Assisted Feeding for People with Spinal Cord Injuries</a></strong> [In Development]</li>
   <li><strong><a href="https://jschultz299.github.io/portfolio/rl">Deep Reinforcement Learning for Atari Games</a></strong></li>
   <li><strong>Eye-Hand Coordination in the Presence of Entangled Feedback</strong> [Coming Soon]</li>
   <li><strong><a href="https://jschultz299.github.io/portfolio/walker">SmartWalker Posture Monitor for Elderly Individuals</a></strong></li>
