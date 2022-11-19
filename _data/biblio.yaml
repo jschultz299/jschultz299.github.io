@@ -11,3 +11,17 @@
   volume: 9.2
   year: 2009
   key: liu2009assessment
+
+- authors: World Health Organization
+  title: World report on disability 2011
+  journal: World Health Organization
+  volume: 
+  year: 2011
+  key: world2011summary
+
+- authors: Stanger, Carol A., et al
+  title: Devices for assisting manipulation - a summary of user task priorities
+  journal: IEEE Transactions on rehabilitation Engineering
+  volume: 2
+  year: 1994
+  key: stanger1994devices
