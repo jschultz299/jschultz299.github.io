@@ -4,6 +4,10 @@
   margin: 0 auto;
   max-width: 400px;
 
+  .rounded-corners{
+    border-radius: 10px
+  }
+
   .caption {
     margin: 0;
     position: absolute;
@@ -23,10 +27,17 @@
     }
 
     &:hover {
-      opacity: 1;
-      margin: 0 auto;
-    //   background:rgba(80,116,146,0.4);
+        opacity: 1;
+        margin: 0 auto;
+        // background: rgba(80,116,146,0.4);
+        // border-radius: 50px;
     }
+
+    // &.caption:hover ~ img.rounded-corners{
+    //     border-radius: 50px;
+    //     transition: all .4s ease;
+    //     -webkit-transition: all .4s ease;
+    // }
 
     .caption-content {
       font-family:'Lora', 'Times New Roman', serif;
