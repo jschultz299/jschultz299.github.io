@@ -4,14 +4,14 @@
 <div class="portfolio-grid">
     {% for item in site.portfolio|reverse=true %}
     <div class="portfolio-cell">
-        <a class="portfolio-link" data-keyboard="true" href="{{ item.url | relative_url }}">
+        <a class="portfolio-link" data-keyboard="true" href="{{ item.url | relative_url}}">
             <div class="caption" title="{{ item.title }}">
                 <div class="caption-content">
                     <!-- <i class="fas fa-search-plus fa-3x"></i> -->
                     <i class="fa fa-search-plus fa-2x" style="margin: 0 auto"><br>{{item.title}}</i>
                 </div>
             </div>
-            <img alt="" class="" src="{{ item.img | relative_url }}">
+            <img alt="" class="rounded-corners" src="{{ item.img | relative_url }}">
         </a>
     </div>
     {% endfor %}

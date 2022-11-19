@@ -11,7 +11,6 @@
     height: 100%;
     text-align: center;
     opacity: 0;
-    // background:rgba(80,116,146,0.4);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -25,6 +24,8 @@
 
     &:hover {
       opacity: 1;
+      margin: 0 auto;
+    //   background:rgba(80,116,146,0.4);
     }
 
     .caption-content {
@@ -47,7 +48,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
 }
 
 .portfolio-cell {
