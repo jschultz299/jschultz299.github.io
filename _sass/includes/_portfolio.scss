@@ -4,8 +4,8 @@
   margin: 0 auto;
   max-width: 400px;
 
-  .rounded-corners{
-    border-radius: 10px
+  .rounded-corners {
+    opacity: 1;
   }
 
   .caption {
@@ -30,14 +30,13 @@
         opacity: 1;
         margin: 0 auto;
         // background: rgba(80,116,146,0.4);
-        // border-radius: 50px;
     }
 
-    // &.caption:hover ~ img.rounded-corners{
-    //     border-radius: 50px;
-    //     transition: all .4s ease;
-    //     -webkit-transition: all .4s ease;
-    // }
+    &.caption:hover ~ img.rounded-corners{
+        border-radius: 0 120px 0 120px;
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+    }
 
     .caption-content {
       font-family:'Lora', 'Times New Roman', serif;
@@ -64,4 +63,5 @@
 .portfolio-cell {
   flex: 0 0 32%;
   margin-bottom: 40px;
+  display: inline-block;
 }
