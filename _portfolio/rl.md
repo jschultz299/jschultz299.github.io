@@ -91,7 +91,7 @@ tags: [Reinforcement Learning, Machine Learning, Engineering, Research, Programm
 </p>
 
 <p>
-    The first section of the code renders the GridWorld environment and demonstrate one episode with random actions. The environment is comprised of 12 spaces, arranged in a 3x4 grid. In this first example, the agent randomly selects an action until it reaches a goal space (either green or red). The states of the environment spaces will be updated as the agent progresses. More positive states (green) indicate a higher probability of choosing the associated action, whereas more negative states (red) indicate a lower probability of choosing the associated action.
+    The first section of the code renders the GridWorld environment and demonstrates one episode with random actions. The environment is comprised of 12 spaces, arranged in a 3x4 grid. In this first example, the agent randomly selects an action until it reaches a goal space (either green or red). The states of the environment spaces will be updated as the agent progresses. More positive states (green) indicate a higher probability of choosing the associated action, whereas more negative states (red) indicate a lower probability of choosing the associated action.
 </p>
 
 <p align="center">
@@ -153,7 +153,7 @@ tags: [Reinforcement Learning, Machine Learning, Engineering, Research, Programm
 </p>
 
 <p>
-    This project uses the <a href="https://www.gymlibrary.dev/environments/classic_control/cart_pole/" target=_blank>CartPole</a> environment. The goal of the project is the train the agent to learn how to balance the pendulum upright for an extended period of time. The agent is rewarded if the pendulum remains upright within a certain range of joint angles.
+    This project uses the <a href="https://www.gymlibrary.dev/environments/classic_control/cart_pole/" target=_blank>CartPole</a> environment. The goal of the project is to train the agent to learn how to balance the pendulum upright for an extended period of time. The agent is rewarded if the pendulum remains upright within a certain range of joint angles.
 </p>
 
 <p>
@@ -209,7 +209,7 @@ model.learn(total_timesteps=20000, callback=eval_callback)
 ```
 
 <p>
-    ... is is sufficient for the agent to learn how to balance the pendulum, shown below. We can see that the pendulum is much more stable for a longer period of time.
+    ... is sufficient for the agent to learn how to balance the pendulum, shown below. We can see that the pendulum is much more stable for a longer period of time.
 </p>
 
 <p align="center">
@@ -467,7 +467,7 @@ env.close()
 </p>
 
 <p>
-    Training the model for a whopping 5,00,000 timesteps...
+    Training the model for a whopping 5,000,000 timesteps...
 </p>
 
 ```python

@@ -9,7 +9,7 @@ tags: [Assistive Technology, Computer Vision, Motion Planning, Controls, Robotic
 ---
 
 <a id="TOP"></a>
-This page is the top level overview page on my primary project on Robot-Assisted Feeding for Individuals with Spinal Cord Injury, where the corresponding github repository can be found <a href="https://github.com/jschultz299/odhe_ros" target="_blank">here</a>.
+This page is the top level overview page on my primary project on Robot-Assisted Feeding (RAF) for Individuals with Spinal Cord Injury, where the corresponding github repository can be found <a href="https://github.com/jschultz299/odhe_ros" target="_blank">here</a>.
 
 If you're interested in other sub-projects relating to Robot-Assisted Feeding, check out the others in this project series! Sub-projects include:
 

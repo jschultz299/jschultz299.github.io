@@ -34,7 +34,7 @@ tags: [Mechatronics, Aviation, Engineering, 3D Printing]
         <li><a href="#FC">Flight Controller</a></li>
         <li><a href="#Battery">Battery</a></li>
         <li><a href="#PDB">Power Distribution Board (PDB)</a></li>
-        <li><a href="#Propellor">Propellors</a></li>
+        <li><a href="#Propeller">Propellers</a></li>
         <li><a href="#RandR">Radio and Receiver</a></li>
     </ul>
 </p>
@@ -74,7 +74,7 @@ tags: [Mechatronics, Aviation, Engineering, 3D Printing]
 </p>
 
 <p>
-    The flight controller is where the magic happens. This is what takes the commands issued by the pilot and tells the ESCs how much power to send the motors. Agian, there are many options available, but I ended up using a <a href="https://hobbyking.com/en_us/afroflight-naze32-rev6-flight-controller-acro.html" target="_blank">Naze32 Rev 6</a> flight controller. To program the flight controller, I used <a href="https://betaflight.com/" target="_blank"> BetaFlight Configurator</a>.
+    The flight controller is where the magic happens. This is what takes the commands issued by the pilot and tells the ESCs how much power to send the motors. Again, there are many options available, but I ended up using a <a href="https://hobbyking.com/en_us/afroflight-naze32-rev6-flight-controller-acro.html" target="_blank">Naze32 Rev 6</a> flight controller. To program the flight controller, I used <a href="https://betaflight.com/" target="_blank"> BetaFlight Configurator</a>.
 </p>
 
 <p>
@@ -96,12 +96,12 @@ tags: [Mechatronics, Aviation, Engineering, 3D Printing]
 </p>
 
 <p>
-    <a id="Propellor"></a>
-    <strong><u><font size="+3">Propellors</font></u></strong>
+    <a id="Propeller"></a>
+    <strong><u><font size="+3">Propellers</font></u></strong>
 </p>
 
 <p>
-    Now what would a quadcopter be without propellors! There are many different styles and shapes of propellors out there. It's good to do some research to find out which propellors are best for your drone. A link to some propellors can be found <a href="https://hobbyking.com/en_us/aircraft/drones/propellers.html" target="_blank">here</a>.
+    Now what would a quadcopter be without propellers! There are many different styles and shapes of propellers out there. It's good to do some research to find out which propellers are best for your drone. A link to some propellers can be found <a href="https://hobbyking.com/en_us/aircraft/drones/propellers.html" target="_blank">here</a>.
 </p>
 
 <p>

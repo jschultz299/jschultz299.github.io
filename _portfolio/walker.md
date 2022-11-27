@@ -9,7 +9,7 @@ order: 2
 tags: [Assistive Technology, Stability and Posture, Visual Feedback, Mobility Aids, Kinematics, Gait, Engineering, Research]
 ---
 
-More than 6.5 million people use walkers or other mobility aids in the United States[^1], and yet, few people are trained how to properly use their walkers. Poor posture when ambulating with a walker has been ovserved in many individuals, and is a likely cause for trips and falls among elderly adults[^2]. In this project, I developed an assistive device that monitors a person's posture and presents visual feedback to them so that they can learn to walk upright when using their walker.
+More than 6.5 million people use walkers or other mobility aids in the United States[^1], and yet, few people are trained how to properly use their walkers. Poor posture when ambulating with a walker has been observed in many individuals, and is a likely cause for trips and falls among elderly adults[^2]. In this project, I developed an assistive device that monitors a person's posture and presents visual feedback to them so that they can learn to walk upright when using their walker.
 
 <p>
     I completed this project as an undergraduate researcher at the University of Dayton, in collaboration with a multidisciplinary team of researchers and faculty. I was the technical lead on the project. The work was supported by the <a href="https://udayton.edu/stem-catalyst/index.php" target="_blank">UD STEM Catalyst Initiative</a>, from which we were awarded funding based on a grant proposal I contributed to. Check out the video below showcasing this work!
