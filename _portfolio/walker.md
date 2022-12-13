@@ -46,7 +46,7 @@ Once we settled on a device design, we recruited elderly individuals from local 
 
 We had participants complete standard 10 meter walks as well as complete a custom obstacle course with and without receiving feedback from the device. We used an XSens motion capture suit to measure kinematic data such as trunk angle and elbow flexion angles, as well as trunk distance from the walker using the posture monitor. The goal was to determine if the presence of visual feedback from the device improved these three metrics.
 
-Here is a figure of a participant's XSens avatar without (left) and with (right) visual feedback enabled:
+Here is a figure of a participant's XSens avatar without visual feedback (left) and with visual feedback (right):
 
 {% include aligner.html images="portfolio/walker/results-xsens.jpg" column=1%}
 
@@ -56,7 +56,7 @@ More interestingly, below are the trunk distance results for a typical trial for
 
 {% include aligner.html images="portfolio/walker/results-10m.png,portfolio/walker/results-obstacle.png" column=2%}
 
-It is clear that the inclusion of the visual feedback had a significant impact on the trunk distance. Points shown in green with considered an acceptable distance away from the walker while points shown in red were considered outside the stability region. This was also found to be consistent across participants in the percentage of time they were within the stability region during the task:
+It is clear that the inclusion of the visual feedback had a significant impact on the trunk distance. Points shown in green were considered an acceptable distance away from the walker while points shown in red were considered outside the stability region. This was also found to be consistent across participants in the percentage of time they were within the stability region during the task:
 
 {% include aligner.html images="portfolio/walker/results-decrease.png," column=1%}
 
