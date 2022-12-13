@@ -81,13 +81,13 @@ This is a weighted, undirectional graph. The graph consists of ```n = 6``` nodes
     Each edge also contains an associated cost. This can be thought of as the effort required to take that path, or perhaps the distance between nodes, though then this graph is not shown to scale.
 </p>
 
-Here we can see that the optimal path is to start at node #1, travel to node #4, then through node #5, and finally to the goal node, nod #6. If we sum up the cost associated with each path, we get a ```cost = 30```. Therefore, the optimal path is ```1-4-5-6```.
+Here we can see that the optimal path is to start at node #1, travel to node #4, through node #5, and finally to the goal node, node #6. If we sum up the cost associated with each path, we get a ```cost = 30```. Therefore, the optimal path is ```1-4-5-6```.
 
 <p>
     But how to we find this optimal path? That's where the A* algorithm comes in handy. I've implemented the solution in the matlab script <a href="https://github.com/jschultz299/Path-Planning/blob/main/A-Star/aStar.m" target="_blank">Astar.m</a>.
 </p>
 
-The first step is to recreate the nodes and associated costs in a matrix. Because there are 6 total nodes, or matrix will be a ```6x6``` matrix, where each element in the matrix is the cost associated with travelling along the path between the nodes ```i``` and ```j```. In an undirectional graph, it does not matter which direction you travel between nodes, so there will be duplicate costs in our matrix. This is okay, the A* search algorithm can handle this.
+The first step is to recreate the nodes and associated costs in a matrix. Because there are 6 total nodes, our matrix will be a ```6x6``` matrix, where each element in the matrix is the cost associated with travelling along the path between the nodes ```i``` and ```j```. In an undirectional graph, it does not matter which direction you travel between nodes, so there will be duplicate costs in our matrix. This is okay, the A* search algorithm can handle this.
 
 <p>
     Here's what the cost matrix looks like for this example:
@@ -124,7 +124,7 @@ Here is a summary table of our intial lists:
     <img src="../assets/img/portfolio/astar/initial_lists.png" width="75%" />
 </p>
 
-We also need an ```OPEN``` list and a ```CLOSED``` list. These will tell the A* algorithm which node to search next, and when we can be finished searching a particular node. To start, we add the ```start_node``` to the ```OPEN``` list and leave the ```CLOSED``` empty.
+We also need an ```OPEN``` list and a ```CLOSED``` list. These will tell the A* algorithm which node to search next, and when we can be finished searching a particular node. To start, we add the ```start_node``` to the ```OPEN``` list and leave the ```CLOSED``` list empty.
 
 To iteratively step through the A* search algorithm for this example, feel free to follow along with Kevin's video [here](https://youtu.be/ZI800-2jv38), or set breakpoints in the <a href="https://github.com/jschultz299/Path-Planning/blob/main/A-Star/aStar.m" target="_blank">Astar.m</a> script.
 
