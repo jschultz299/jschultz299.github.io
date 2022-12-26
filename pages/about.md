@@ -16,7 +16,7 @@ tags: [About, Skills, Experience, Projects, Hobbies]
 
 <p>
     Hi! My name is Jack Schultz. I am currently working toward earning my PhD in Mechanical Engineering at 
-    <a href="https://www.csuohio.edu/" target="_blank">Cleveland State University</a>. I plan to graduate in <strong>Summer 2023</strong>. 
+    <a href="https://www.csuohio.edu/" target="_blank">Cleveland State University</a>. I plan to graduate in <strong>May 2023</strong>. 
     I have strong interests in robotics, mechatronics, controls, computer vision, motion planning, machine learning, and artificial intelligence. My long term 
     goal is to develop transformative technologies in the fields of robotics and machine learning which transition society 
     to a world of abundance and empower humans to live productive and healthy lives.
