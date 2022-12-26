@@ -4,7 +4,7 @@ title: Casting
 feature-img: "assets/img/portfolio/foundry1/features/feature.jpg"
 header_feature_image_responsive: true
 img: "assets/img/portfolio/casting/thumbnails/thumbnail_630x472.gif"
-date: July 10, 2022
+date: July 10, 2020
 hide: false
 tags: [Engineering, Fabrication, Casting, Foundry, Metallurgy]
 ---
