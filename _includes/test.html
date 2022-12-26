@@ -1,0 +1,55 @@
+<!-- Portfolio Grid Section -->
+<link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css"> -->
+
+<select class="test-select">
+    <option value="all">All</option>
+    <option value="raf">Robot-Assisted Feeding</option>
+    <option value="casting">Casting</option>
+    <option value="path">Path Planning</option>
+    <option value="research">Research</option>
+    <option value="fun">For Fun</option>
+</select>
+
+<!-- <div class="test-grid">
+    <img alt="" class="test-rounded-corners" src="../assets/img/portfolio/astar/thumbnails/thumbnail.gif">
+    <img alt="" class="test-rounded-corners" src="../assets/img/portfolio/drone/thumbnails/thumbnail_800x600.gif">
+    <img alt="" class="test-rounded-corners" src="../assets/img/portfolio/raf/thumbnails/thumbnail.gif">
+    <img alt="" class="test-rounded-corners" src="../assets/img/portfolio/rl/thumbnails/thumbnail_mario.gif">
+    <img alt="" class="test-rounded-corners" src="../assets/img/portfolio/walker/thumbnails/thumbnail.gif">
+</div> -->
+
+<!-- <div class="test-grid">
+    <div class="test-cell">
+        <img alt="" class="test-rounded-corners" src="../assets/img/portfolio/astar/thumbnails/thumbnail.gif">
+    </div>
+    <div class="test-cell">
+        <img alt="" class="test-rounded-corners" src="../assets/img/portfolio/drone/thumbnails/thumbnail_800x600.gif">
+    </div>
+    <div class="test-cell">
+        <img alt="" class="test-rounded-corners" src="../assets/img/portfolio/raf/thumbnails/thumbnail.gif">
+    </div>
+    <div class="test-cell">
+        <img alt="" class="test-rounded-corners" src="../assets/img/portfolio/rl/thumbnails/thumbnail_mario.gif">
+    </div>
+    <div class="test-cell">
+        <img alt="" class="test-rounded-corners" src="../assets/img/portfolio/walker/thumbnails/thumbnail.gif">
+    </div>
+</div> -->
+
+<div class="test-grid">
+    {% for item in site.portfolio %}
+        <div class="test-cell">
+            <a class="test-portfolio-link" href="{{ item.url | relative_url}}">
+                <div class="test-caption" title="{{ item.title }}">
+                    <div class="test-caption-content">
+                        <i class="fa fa-search-plus fa-2x"><br>{{item.title}}</i>
+                    </div>
+                </div>
+                <img alt="" class="test-rounded-corners" src="{{ item.img | relative_url }}">
+            </a>
+        </div>
+    {% endfor %}
+</div>
+
+<script src="../assets/js/partials/test-selector.js"></script>

@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Object Detection V1
-feature-img: "assets/img/portfolio/objectdetection1/features/feature.jpg"
+# feature-img: "assets/img/portfolio/objectdetection1/features/feature.jpg"
 header_feature_image_responsive: true
 img: "assets/img/portfolio/objectdetection1/thumbnails/thumbnail.gif"
 date: June 20, 2021
+hide: false
 tags: [Computer Vision, Assistive Technology, Engineering, Machine Learning, Deep Learning, Object Detection]
 ---
 

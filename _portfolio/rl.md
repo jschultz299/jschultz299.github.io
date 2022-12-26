@@ -5,7 +5,7 @@ feature-img: "assets/img/portfolio/rl/features/feature.png"
 header_feature_image_responsive: true
 img: "assets/img/portfolio/rl/thumbnails/thumbnail_mario.gif"
 date: April 8, 2022
-order: 1
+hide: false
 tags: [Reinforcement Learning, Machine Learning, Engineering, Research, Programming]
 ---
 
