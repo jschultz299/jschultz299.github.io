@@ -5,7 +5,7 @@ title: Object Detection V1
 header_feature_image_responsive: true
 img: "assets/img/portfolio/objectdetection1/thumbnails/thumbnail.gif"
 date: June 20, 2021
-hide: false
+flags: research raf
 tags: [Computer Vision, Assistive Technology, Engineering, Machine Learning, Deep Learning, Object Detection]
 ---
 

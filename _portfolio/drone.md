@@ -5,7 +5,7 @@ feature-img: "assets/img/portfolio/drone/features/feature.jpg"
 header_feature_image_responsive: true
 img: "assets/img/portfolio/drone/thumbnails/thumbnail_800x600.gif"
 date: August 16, 2016
-hide: false
+flags: fun
 tags: [Mechatronics, Aviation, Engineering, 3D Printing]
 ---
 

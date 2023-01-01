@@ -4,21 +4,21 @@ select.addEventListener('change', myFunction);
 
 function myFunction() {
     var selectedValue = select.value
-    var pictures = document.querySelectorAll('img')
+    var cells = document.querySelectorAll('div.portfolio-cell')
 
     if (selectedValue !== 'all') {
-        for (let i = 0; i < pictures.length; i++) {
-            pictures[i].style.display = 'none';
-            for (let ii = 0; ii < pictures[i].classList.length; ii++) {
-                if (pictures[i].classList[ii] === selectedValue) {
-                    pictures[i].style.display = 'inline-block';
+        for (let i = 0; i < cells.length; i++) {
+            cells[i].style.display = 'none';
+            for (let ii = 0; ii < cells[i].classList.length; ii++) {
+                if (cells[i].classList[ii] === selectedValue) {
+                    cells[i].style.display = 'inline-block';
                 }
             }
         }
     }
     else {
-        for (let i = 0; i < pictures.length; i++) {
-            pictures[i].style.display = 'inline-block';
+        for (let i = 0; i < cells.length; i++) {
+            cells[i].style.display = 'inline-block';
         }
     }
   }

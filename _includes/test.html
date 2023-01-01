@@ -37,7 +37,7 @@
     </div>
 </div> -->
 
-<div class="test-grid">
+<!-- <div class="test-grid">
     {% for item in site.portfolio %}
         <div class="test-cell">
             <a class="test-portfolio-link" href="{{ item.url | relative_url}}">
@@ -49,6 +49,23 @@
                 <img alt="" class="test-rounded-corners" src="{{ item.img | relative_url }}">
             </a>
         </div>
+    {% endfor %}
+</div> -->
+
+<div class="portfolio-grid">
+    {% for item in site.portfolio %}
+        {% if item.hide != true %}
+            <div class="portfolio-cell {{item.flags}}">
+                <a class="portfolio-link" data-keyboard="true" href="{{ item.url | relative_url}}">
+                    <div class="caption" title="{{ item.title }}">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-2x" style="margin: 0 auto"><br>{{item.title}}</i>
+                        </div>
+                    </div>
+                    <img alt="" class="rounded-corners" src="{{ item.img | relative_url }}">
+                </a>
+            </div>
+        {% endif %}
     {% endfor %}
 </div>
 

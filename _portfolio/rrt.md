@@ -5,7 +5,7 @@ feature-img: "assets/img/portfolio/rrt/features/feature.png"
 header_feature_image_responsive: true
 img: "assets/img/portfolio/rrt/thumbnails/thumbnail.gif"
 date: February 14, 2022
-hide: false
+flags: research path
 tags: [RRT, Path Planning, Motion Planning, Machine Learning, Engineering, Research, Programming, Matlab, A*]
 ---
 

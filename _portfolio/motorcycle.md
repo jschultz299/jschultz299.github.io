@@ -5,7 +5,7 @@ feature-img: "assets/img/portfolio/motorcycle/features/feature.jpg"
 header_feature_image_responsive: true
 img: "assets/img/portfolio/motorcycle/thumbnails/thumbnail.gif"
 date: June 8, 2016
-hide: false
+flags: fun
 tags: [Engineering, Motorcycle, Rebuild, Machinery]
 ---
 

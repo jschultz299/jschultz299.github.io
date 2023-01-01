@@ -2,19 +2,19 @@
 <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css">
 <!-- <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-iso.min.css"> -->
 
-<!-- <select class="portfolio-select">
+<select class="portfolio-select">
     <option value="all">All</option>
     <option value="raf">Robot-Assisted Feeding</option>
-    <option value="cast">Casting</option>
+    <option value="casting">Casting</option>
     <option value="path">Path Planning</option>
     <option value="research">Research</option>
     <option value="fun">For Fun</option>
-</select> -->
+</select>
 
 <div class="portfolio-grid">
     {% for item in site.portfolio %}
         {% if item.hide != true %}
-            <div class="portfolio-cell">
+            <div class="portfolio-cell {{item.flags}}">
                 <a class="portfolio-link" data-keyboard="true" href="{{ item.url | relative_url}}">
                     <div class="caption" title="{{ item.title }}">
                         <div class="caption-content">
@@ -28,4 +28,4 @@
     {% endfor %}
 </div>
 
-<!-- <script src="../assets/js/partials/selector.js"></script> -->
+<script src="../assets/js/partials/selector.js"></script>

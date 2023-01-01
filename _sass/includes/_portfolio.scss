@@ -74,15 +74,21 @@
 }
 
 .portfolio-select{
-    position: absolute;
-    top: 358px;
-    left: 965px;
+    position: relative;
+    left: 80%;
+    // top: 358px;
+    // left: 965px;
     padding: 5px 10px;
     background-color: #c0c0c0;
     color: white;
     border: none;
     border-radius: 5px 5px 5px 5px;
     cursor: pointer;
+
+    @media screen and (max-width: $sm-break) {
+        left: 70%;
+        font-size: 10px;
+    }
 }
 
 
@@ -162,15 +168,21 @@
 }
 
 .test-select{
-    position: absolute;
-    top: 358px;
-    left: 965px;
+    position: relative;
+    left: 80%;
+    // top: 358px;
+    // left: 965px;
     padding: 5px 10px;
     background-color: #c0c0c0;
     color: white;
     border: none;
     border-radius: 5px 5px 5px 5px;
     cursor: pointer;
+
+    @media screen and (max-width: $sm-break) {
+        left: 70%;
+        font-size: 10px;
+    }
 }
 
 

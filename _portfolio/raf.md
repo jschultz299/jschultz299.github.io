@@ -5,7 +5,7 @@ feature-img: "assets/img/portfolio/raf/features/feature.jpg"
 header_feature_image_responsive: true
 img: "assets/img/portfolio/raf/thumbnails/thumbnail.gif"
 date: June 10, 2021
-hide: false
+flags: research raf
 tags: [Assistive Technology, Computer Vision, Motion Planning, Controls, Robotics, Human-Machine Interface, Engineering, Fabrication]
 ---
 
