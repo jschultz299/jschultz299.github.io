@@ -4,6 +4,9 @@
 # Mac OS
 .DS_Store
 
+# icloud
+*.icloud
+
 # Byte-compiled / optimized / DLL files
 *.manifest
 *.spec
